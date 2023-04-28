@@ -9,27 +9,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <link href="main.js">
 </head>
 <body>
-    <div class="yellow">
-        <header>
-            <h1>PIZZARIA</h1>
-        </header>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+              <a href="pizzaria.html"><img src="/pizzaria/imgs/logo.png" alt="Logo"></a>
+            </div>
+            <h1 class="header-text">PIZZARIA UCB</h1>
+            <div class="menu">
+              <ul>
+                <li><a href="pizzaria.html">Home</a></li>
+                <li><a href="#nntem¯\_(ツ)_/¯">Menu</a></li>
+                <li><a href="#nntemtbm¯\_(ツ)_/¯">Delivery</a></li>
+                <li><a href="#vcjasabe¯\_(ツ)_/¯">Contato</a></li>
+              </ul>
+            </div>
+            <div class="toggle">
+              <i class="fa fa-bars menu-icon"></i>
+            </div>
+          </nav>
+    </header> 
     <section>
         <div class="container">
             <div>
-                <img class="image" src="imgs/pizza_calabresa_e_mussarela_4389_600.jpg" alt="Pizza de calabresa">  
+                <img id="fotoprincipal" class="image" src="imgs/pizza_calabresa_e_mussarela_4389_600.jpg" alt="Pizza de calabresa">  
             </div>
             <div class="text">
-                <h2>Pizza de calabresa braba aa uu teste <br>lorem ipsum per aspera ad astra ad hominum</h2>
+                <h2>Pizza de calabresa (Especial da casa)<br>Calabresa, mussarela, molho de tomate, oregano e cebola</h2>
             </div>
         </div>
     </section>
     <section>
-        <a href="#Chocolate"><img class="pizzaMenu" class="center" src="imgs/pizzaChocolate.jpg" alt="pizza de chocolate"></a>
+        <a  href="#Chocolate"><img onclick="changeImage1()" class="pizzaMenu" class="center" src="imgs/pizzaChocolate.jpg" alt="pizza de chocolate"></a>
         <h3>Chocolate com morango</h3>
-        <a href="#Portuguesa"><img class="pizzaMenu" src="imgs/Portuguesa.jpg" alt="pizza de portuguesa"></a>
+        <a href="#Portuguesa"><img onclick="changeImage2()" class="pizzaMenu" src="imgs/Portuguesa.jpg" alt="pizza de portuguesa"></a>
         <h3>Portuguesa</h3>
     </section>
 <footer class="yellow">
