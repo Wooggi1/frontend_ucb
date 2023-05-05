@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Kombi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-container">
+        <nav>
+            <div class="logo">
+                <a href="kombi.html"><img class="logo-img" src="imgs/logo.png" alt="logo"></a>
+            </div>
+            <h1 class="header-text">Kombi<br> Insana</h1>
+        </nav>
+    </header>
+
+    <img class="img-main" id="image">
+        <h2 class="sub-img-text">KOMBI ANTIGA CONSERVADA</h2>
+        <p class="sub-img-text" >Ano 1984 com 250,000Km rodado<br>Toda revisada, pneus novos, excelente desempenho
+        <br>Pronta para pegar e curtir.<br>
+        Tem bancos removíveis no interior (nada que afeta a originalidade do carro).<br>
+        Toda a kombi está original</p>
+        <h1>MADONNA JA ANDOU NA KOMBI</h1>
+        
+            <a href="https://wa.me/55912345678/?text=Olá, tenho interesse na kombi!" target="_blank"><h1>POR APENAS R$24.000!!</h1></a>
+
+            <script type="text/javascript">
+                let image = document.getElementById('image');
+                let images = ["imgs/kombizona.jpg", "imgs/kombizona-2.jpg", "imgs/kombizona-3.jpg"];
+                setInterval(function(){
+                    let random = Math.floor(Math.random() * 3);
+                    image.src = images[random];
+                }, 2000);
+            </script>
+    <footer>
+        <a href="https://wa.me/55912345678/?text=Olá, tenho interesse na kombi!" target="_blank"><img class="zapzap"src="imgs/whatsapp.svg" alt="zapzap"> (61) 91234-5678</a>
+        <p class="footer-text"><br>Setor Comercial 123 Brasilia<br></p>
+    </footer>
+</body>
+</html>
