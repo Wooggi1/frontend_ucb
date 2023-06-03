@@ -20,6 +20,7 @@ header {
     top: 0;
     z-index: 100;
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 body {
@@ -46,7 +47,7 @@ body {
     text-align: center;
     font-size: 20px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 430px;
 }
 
 .top-right-img {
@@ -80,4 +81,31 @@ body {
     font-weight: normal;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+section, footer {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.footer-img {
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 5px;
+} 
+
+.footer-img:hover {
+    opacity: 0.6;
+}
+
+.footer-img:active {
+    opacity: 0.3;
 }
